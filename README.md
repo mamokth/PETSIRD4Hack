@@ -1,3 +1,7 @@
+# My purpose
+
+I am not sure what i am going to use this for. Probably I will work on list mode recon
+
 # PETSIRD template for C++ use cases
 
 The purpose of this repo is to provide a starting point for developing software that uses PETSIRD.
@@ -15,7 +19,7 @@ These instructions will use `YourRepoName` for the name of your new repository. 
 #### Create a new repository based on this template
 
 Easiest is to start from GitHub:
-1. Navigate to the URL of this repo: https://github.com/ETSInitiative/PETSIRDUseCaseTemplate
+1. Navigate to the URL of this repo: https://github.com/ETSInitiative/PETSIRD4Hack
 2. Click on the `Use this template` button and create your own repo
 
 ### Using your repo
@@ -25,7 +29,7 @@ in a [VS Code devcontainer](https://code.visualstudio.com/docs/devcontainers/con
 This codespace/container will contain all necessary tools, including `yardl` itself, as well as your repository.<br>
 (Alternatively, clone to your local computer with `git clone --recurse-submodules <repository_url>`, download `yardl`, install dependencies etc.)
 2. Start with basic house-keeping
-   1. Search-and-replace all occurences of `PETSIRDUseCaseTemplate` with `YourRepoName`
+   1. Search-and-replace all occurences of `PETSIRD4Hack` with `YourRepoName`
    2. Update the README.md to remove references to this template and write something about what your repo is going to do
    3. Update the `environment.yml`to include what you need. For instance, if you need ROOT, add something like `- root=6.28.0`
    4. Make some other basic changes and commit
@@ -45,5 +49,3 @@ cd PETSIRD/model
 yardl generate
 cd ../..
 ```
-
-

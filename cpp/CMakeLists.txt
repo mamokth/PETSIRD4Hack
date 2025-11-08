@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.12.0) # older would work, but could give warnings on policy CMP0074
-project(PETSIRDUseCaseTemplate VERSION 0.7.2)
+project(PETSIRD4Hack VERSION 0.7.2)
 
 set(CMAKE_CXX_STANDARD 17)
 
